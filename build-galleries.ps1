@@ -2,7 +2,7 @@ $ErrorActionPreference = 'Stop'
 
 $root = $PSScriptRoot
 $categories = @('favorites', 'restavration', 'clothing', 'new-category', 'new-category\sub-1', 'new-category\sub-2', 'new-category\sub-3', 'new-category\sub-4', 'portfolio')
-$extensions = @('.jpg', '.jpeg', '.png', '.webp', '.gif', '.avif', '.bmp')
+$extensions = @('.jpg', '.jpeg', '.png', '.webp', '.gif', '.avif', '.bmp', '.heic')
 $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
 
 foreach ($cat in $categories) {
